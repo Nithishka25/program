@@ -1,3 +1,7 @@
+create a project :
+mvn archetype:generate -DgroupId=com.example -DartifactId=my-project -DarchetypeArtifactId=maven-archetype-quickstart -DinteractiveMode=false
+
+
 pom.xml:
 
 <project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
@@ -42,6 +46,7 @@ pom.xml:
     </build>
 </project>
 
+change the directory to the  maven project
 
 execution :
 
