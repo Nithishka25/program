@@ -1,0 +1,11 @@
+object main{
+    def main(args: Array[String]):Unit={
+val num=1
+var res=1
+for(i<-1 to 5){
+    res*=i
+
+}
+println(res)
+    }
+}
